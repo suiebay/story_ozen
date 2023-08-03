@@ -386,17 +386,17 @@ class _StoryPageBuilderState extends State<_StoryPageBuilder>
                 )
               : null,
         ),
-        _Indicators(
-          indicatorHeight: widget.indicatorHeight,
-          storyLength: widget.storyLength,
-          animationController: animationController,
-          isCurrentPage: widget.isCurrentPage,
-          isPaging: widget.isPaging,
-          padding: widget.indicatorPadding,
-          indicatorVisitedColor: widget.indicatorVisitedColor,
-          indicatorUnvisitedColor: widget.indicatorUnvisitedColor,
-          indicatorAnimationController: widget.indicatorAnimationController,
-        ),
+        // _Indicators(
+        //   indicatorHeight: widget.indicatorHeight,
+        //   storyLength: widget.storyLength,
+        //   animationController: animationController,
+        //   isCurrentPage: widget.isCurrentPage,
+        //   isPaging: widget.isPaging,
+        //   padding: widget.indicatorPadding,
+        //   indicatorVisitedColor: widget.indicatorVisitedColor,
+        //   indicatorUnvisitedColor: widget.indicatorUnvisitedColor,
+        //   indicatorAnimationController: widget.indicatorAnimationController,
+        // ),
         _Gestures(
           animationController: animationController,
         ),
